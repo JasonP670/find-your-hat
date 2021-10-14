@@ -24,3 +24,17 @@ After each move the ░ will be replaced with a * to leave a trail of where you 
 You will not be allowed to move off the board. 
 
 * Note: The holes are randomly generated, there's a chance the game in un-winnable. 
+
+
+
+### Things I learned:
+- How to get input from the player.
+- Classes, this whole game is made in a class.
+- Really solidified my understanding of JavaScript. 
+
+
+### Things that can be updated. 
+- Improve the number of holes that are generated.
+- Make sure that holes are placed so that the game is always winnable.
+- After a certain number of moves, more holes start appearing. 
+- Terminal doesn't reprint after each move, rather gets refreshed. 
