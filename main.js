@@ -170,21 +170,11 @@ class Field {
     
 }
 
-const myField = new Field([
-  ['*', '░', 'O'],
-  ['░', 'O', '░'],
-  ['░', '^', '░'],
-  ['░', '░', '░']
-]);
 
-// while(!myField.gameOver) {
-//   myField.print()
-//   const move = prompt('Which way?  ');
-//   myField.move(move);
-// }
+const height = prompt('Height?  ')
+const width = prompt('Width?  ')
 
-
-let aField = Field.generateField(40, 20)
+let aField = Field.generateField(height, width)
 const anotherField = new Field(aField)
 while(!anotherField.gameOver) {
   anotherField.print()
